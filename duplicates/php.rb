@@ -90,7 +90,8 @@ class Php < Formula
       "--with-png-dir=/usr/X11",
       "--with-gettext=#{Formula.factory('gettext').prefix}",
       "--with-tidy",
-      "--mandir=#{man}"
+      "--mandir=#{man}",
+      "--enable-cgi"
     ]
 
     # Enable PHP FPM
